@@ -1,5 +1,5 @@
 from sdks.novavision.src.helper.package import PackageHelper
-from components.DemoPackage.src.models.PackageModel import (
+from components.DemoPackagee.src.models.PackageModel import (
     PackageModel, PackageConfigs, ConfigExecutor,
     RotateImageOutputs, RotateImageResponse, RotateImageExecutor, OutputImage,
     MergeImagesOutputs, MergeImagesResponse, MergeImagesExecutor, OutputScore,
@@ -32,3 +32,4 @@ def build_merge_response(context):
     package = PackageHelper(packageModel=PackageModel, packageConfigs=packageConfigs)
     packageModel = package.build_model(context)
     return packageModel
+

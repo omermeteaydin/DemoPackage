@@ -12,8 +12,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../../../../'))
 from sdks.novavision.src.media.image import Image
 from sdks.novavision.src.base.component import Component
 from sdks.novavision.src.helper.executor import Executor
-from components.DemoPackage.src.utils.response import build_rotate_response
-from components.DemoPackage.src.models.PackageModel import PackageModel
+from components.DemoPackagee.src.utils.response import build_rotate_response
+from components.DemoPackagee.src.models.PackageModel import PackageModel
 
 
 class RotateImage(Component):
@@ -69,3 +69,4 @@ class RotateImage(Component):
 
 if "__main__" == __name__:
     Executor(sys.argv[1]).run()
+
